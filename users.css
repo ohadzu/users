@@ -1,0 +1,14 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background-color: #F0F8FF;
+}
+
+.user-image-size {
+	width: 120px;
+    height: 120px;
+}
+
+#gmaps {	
+	height: 400px;
+}

@@ -1,0 +1,11 @@
+<div class="card">
+	<div class="card-body text-center">		
+		<p><img check-image class=" img-fluid user-image-size" ng-src="{{user.imageUrl}}" alt="card image"></p>
+		<h4 class='card-title'>{{user.name}}</h4>
+		<p class='card-text'>{{user.age}}</p>
+		<p class='card-text'>{{user.email}}</p>	
+		<button ng-click="removeUserFunc(user)" class="btn btn-primary btn-sm">
+			<i class="fa fa-close"></i>
+		</button>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+<form name="addUserForm" ng-submit="submit()" class="form-inline">        
+    
+    <input required type="text" ng-model="newUser.name" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Name (Jane Doe)">
+        
+    <input required type="email" ng-model="newUser.email" class="form-control mb-2 mr-sm-2" id="inlineFormInputGroup" placeholder="Email (you@example.com)">  
+
+
+    <input required type="number" ng-model="newUser.age" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Age (27)">
+
+    <input required type="text" ng-model="newUser.imageUrl" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Image Url (https://.../img_01.png)">            
+
+    <input required type="text" ng-model="newUser.latitude" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Latitude (130.000)">        
+
+
+    <input required type="text" ng-model="newUser.longitude" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Longitude (120.000)">        
+    
+    <input type="submit" id="submit" value="Add" class="btn btn-primary mb-2 mr-sm-2"/>
+</form>
